@@ -1,0 +1,1 @@
+const i=Object.prototype.toString;function o(t){return t!=null}function n(t,r){return i.call(t)===`[object ${r}]`}function c(t){return n(t,"String")}function e(t){return t!==null&&n(t,"Object")}function u(t){return t&&Array.isArray(t)}export{u as a,c as b,e as c,o as i};
